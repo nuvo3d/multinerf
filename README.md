@@ -33,6 +33,7 @@ pip install --upgrade pip
 
 # Install requirements.
 pip install -r requirements.txt
+pip install --upgrade "jax[cuda]"  -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 
 # Manually install rmbrualla's `pycolmap` (don't use pip's! It's different).
 git clone https://github.com/rmbrualla/pycolmap.git ./internal/pycolmap
